@@ -1,17 +1,20 @@
-    header{
+header{
         background-color: lightcyan;
-        width:54em;
         height:4em;
         text-align: center;
         padding: 0.5em 0.5em 2em 0.8em;
         margin: 1em 0.5em 0.4em 0.8em;
         border:1px black;
 }
-    body{
-    width: 60%;
+body{
     background-color: #ffccd4;
     padding: 0.5em 0.5em 0.4em 0.8em;
     margin: 1em 0.5em 0.4em 0.8em;
+}
+
+.container {
+    width:60%;
+    margin: 0 auto;
 }
     h2{
        color:#fc4c4e;
@@ -21,4 +24,27 @@
 }
     p{
     
+}
+
+li {
+    display: inline;
+}
+a {
+    width: 20rem;
+    height: 1.5rem;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    background-color: blue;
+    color: white;
+}
+
+a:hover {
+    color: blue;
+    background-color: white;
+}
+
+nav {
+    margin: 0 auto;
 }
