@@ -9,66 +9,6 @@ body {
   overflow-x: hidden;
   margin: 0 auto;
   padding: 0;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  -o-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-}
-
-h2 {
-  color: #292929;
-  font-weight: 600;
-}
-
-h4 {
-  color: #292929;
-  font-size: 14px;
-  font-weight: 600;
-}
-
-a {
-  color: #292929;
-  text-decoration: none !important;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
-}
-
-a:hover {
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
-}
-
-a:hover, a:focus {
-  color: #b8a07e;
-  text-decoration: underline;
-}
-
-nav ul li a {
-  padding: 2px 0 0 0;
-  position: relative;
-  display: block;
-  font-size: 12px;
-  color: #999999;
-  letter-spacing: 0.1em;
-  font-weight: 500;
-  line-height: 14px;
-  text-transform: uppercase;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
 }
 
 p {
@@ -77,32 +17,6 @@ p {
   font-size: 15px;
   color: #999999;
   line-height: 28px;
-}
-
-::-moz-selection {
-  background: #b8a07e;
-  color: #fff;
-}
-
-::selection {
-  background: #b8a07e;
-  color: #fff;
-}
-
-.btn {
-  background: #333;
-  border: medium none;
-  border-radius: 0;
-  color: #fff;
-  font-size: 12px;
-  height: 50px;
-  line-height: 50px;
-  padding: 0 30px;
-  text-transform: uppercase;
-}
-
-.btn:hover, .btn:focus {
-  color: #fff;
 }
 
 .padDiv {
@@ -149,43 +63,52 @@ p {
   padding-bottom: 90px !important;
 }
 
-.hvr-shutter-in-horizontal::before {
-  background: #333;
+a:link {
+  color: #2c87f0;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
-.hvr-shutter-in-horizontal:hover {
-  background: #b8a07e;
+a:visited {
+  color: #636;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
-.mb-30 {
-  margin-bottom: 30px;
+a:hover {
+  color: #c33;
+  background-color: transparent;
+  text-decoration: underline;
 }
-
 /*-----------------------------------------------------------------------------------*/
 /*  Navbar Top
 /*-----------------------------------------------------------------------------------*/
-.flex-nav {
-    display: flex;
-    justify-content:space-evenly;
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position:fixed;
+  width: 100%;
 }
 
-nav a {
-    color:dimgray;
-    text-decoration: none;
-    display: block;
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Playfair Display', serif;
+  font-size: 17px;
 }
 
-nav li:hover{
-    background-color: antiquewhite;
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
-nav > ul{
-    background-color: floralwhite;
-    list-style: none;
-    margin: 20px;
-    padding:12px;
-    margin-left: 3cm;
-    margin-right: 3cm;
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
 }
 
 /*----------------------------------------------------------------------------------*/
@@ -196,7 +119,7 @@ nav > ul{
   background-image: url('background.jpg');
   background-position:bottom;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
   display:flex;
   align-items:center;
   height:500px;
@@ -245,7 +168,7 @@ nav > ul{
 
 #myself .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #b8a07e;
+  border: 20px solid #A9A9A9;
 }
 
 #myself .div-img-bg .about-img img {
@@ -267,6 +190,7 @@ nav > ul{
   max-width: 80%;
   margin-bottom: 0;
   text-align: left;
+  font-family: 'Playfair Display', serif;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -298,12 +222,15 @@ nav > ul{
   font-family: 'Playfair Display', serif;
   font-size: 28px;
   text-align: left;
+  color: #b8a07e;
 }
 
 #primary_and_secondary_school_education .about-descr .separator {
   max-width: 80%;
   margin-bottom: 0;
   text-align: left;
+  color: #b8a07e;
+  font-family: 'Playfair Display', serif;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -319,7 +246,7 @@ nav > ul{
 
 #tertiary_education .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #b8a07e;
+  border: 20px solid #A9A9A9;
 }
 
 #tertiary_education .div-img-bg .about-img img {
@@ -341,6 +268,7 @@ nav > ul{
   max-width: 80%;
   margin-bottom: 0;
   text-align: left;
+  font-family: 'Playfair Display', serif;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -372,12 +300,15 @@ nav > ul{
   font-family: 'Playfair Display', serif;
   font-size: 28px;
   text-align: left;
+  color: #b8a07e;
 }
 
 #work_experience .about-descr .separator {
   max-width: 80%;
   margin-bottom: 0;
   text-align: left;
+  color: #b8a07e;
+  font-family: 'Playfair Display', serif;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -393,7 +324,7 @@ nav > ul{
 
 #overseas_education_experience .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #b8a07e;
+  border: 20px solid #A9A9A9;
 }
 
 #overseas_education_experience .div-img-bg .about-img img {
@@ -415,6 +346,7 @@ nav > ul{
   max-width: 80%;
   margin-bottom: 0;
   text-align: left;
+  font-family: 'Playfair Display', serif;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -446,12 +378,15 @@ nav > ul{
   font-family: 'Playfair Display', serif;
   font-size: 28px;
   text-align: left;
+  color: #b8a07e;
 }
 
 #future_plans .about-descr .separator {
   max-width: 80%;
   margin-bottom: 0;
   text-align: left;
+  color: #b8a07e;
+  font-family: 'Playfair Display', serif;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -467,7 +402,7 @@ nav > ul{
 
 #ending .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #b8a07e;
+  border: 20px solid #A9A9A9;
 }
 
 #ending .div-img-bg .about-img img {
@@ -489,4 +424,5 @@ nav > ul{
   max-width: 80%;
   margin-bottom: 0;
   text-align: left;
+  font-family: 'Playfair Display', serif;
 }
