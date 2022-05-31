@@ -123,7 +123,7 @@ a:hover {
   display:flex;
   align-items:center;
   height:500px;
-  opacity: 97%;
+  opacity: 100%;
 }
 
 
@@ -142,6 +142,7 @@ a:hover {
   margin-bottom: 10px;
   text-transform: uppercase;
   color: #fff;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .header-content p {
@@ -152,6 +153,7 @@ a:hover {
   text-transform: capitalize;
   color: #fff;
   font-weight: 500;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 
@@ -184,6 +186,8 @@ a:hover {
   font-family: 'Playfair Display', serif;
   font-size: 28px;
   text-align: left;
+  color: #616161;
+  text-shadow: 1px 1px 2px #ffff;
 }
 
 #myself .about-descr .separator {
@@ -191,6 +195,8 @@ a:hover {
   margin-bottom: 0;
   text-align: left;
   font-family: 'Playfair Display', serif;
+  color: #616161;
+  text-shadow: 1px 1px 2px #ffff;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -222,15 +228,17 @@ a:hover {
   font-family: 'Playfair Display', serif;
   font-size: 28px;
   text-align: left;
-  color: #b8a07e;
+  color: #ae9675;
+  text-shadow: 1px 1px 2px #ffff;
 }
 
 #primary_and_secondary_school_education .about-descr .separator {
   max-width: 80%;
   margin-bottom: 0;
   text-align: left;
-  color: #b8a07e;
-  font-family: 'Playfair Display', serif;
+  color: #ae9675;
+  font-family: 'Playfair Display', serif, bold;
+  text-shadow: 1px 1px 2px #ffff;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -262,6 +270,8 @@ a:hover {
   font-family: 'Playfair Display', serif;
   font-size: 28px;
   text-align: left;
+  color: #616161;
+  text-shadow: 1px 1px 2px #ffff;
 }
 
 #tertiary_education .about-descr .separator {
@@ -269,6 +279,8 @@ a:hover {
   margin-bottom: 0;
   text-align: left;
   font-family: 'Playfair Display', serif;
+  color: #616161;
+  text-shadow: 1px 1px 2px #ffff;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -300,15 +312,17 @@ a:hover {
   font-family: 'Playfair Display', serif;
   font-size: 28px;
   text-align: left;
-  color: #b8a07e;
+  color: #ae9675;
+  text-shadow: 1px 1px 2px #ffff;
 }
 
 #work_experience .about-descr .separator {
   max-width: 80%;
   margin-bottom: 0;
   text-align: left;
-  color: #b8a07e;
+  color: #ae9675;
   font-family: 'Playfair Display', serif;
+  text-shadow: 1px 1px 2px #ffff;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -340,6 +354,8 @@ a:hover {
   font-family: 'Playfair Display', serif;
   font-size: 28px;
   text-align: left;
+  color: #616161;
+  text-shadow: 1px 1px 2px #ffff;
 }
 
 #overseas_education_experience .about-descr .separator {
@@ -347,6 +363,8 @@ a:hover {
   margin-bottom: 0;
   text-align: left;
   font-family: 'Playfair Display', serif;
+  color: #616161;
+  text-shadow: 1px 1px 2px #ffff;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -378,15 +396,17 @@ a:hover {
   font-family: 'Playfair Display', serif;
   font-size: 28px;
   text-align: left;
-  color: #b8a07e;
+  color: #ae9675;
+  text-shadow: 1px 1px 2px #ffff;
 }
 
 #future_plans .about-descr .separator {
   max-width: 80%;
   margin-bottom: 0;
   text-align: left;
-  color: #b8a07e;
+  color: #ae9675;
   font-family: 'Playfair Display', serif;
+  text-shadow: 1px 1px 2px #ffff;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -418,6 +438,8 @@ a:hover {
   font-family: 'Playfair Display', serif;
   font-size: 28px;
   text-align: left;
+  color: #616161;
+  text-shadow: 1px 1px 2px #ffff;
 }
 
 #ending .about-descr .separator {
@@ -425,4 +447,6 @@ a:hover {
   margin-bottom: 0;
   text-align: left;
   font-family: 'Playfair Display', serif;
+  color: #616161;
+  text-shadow: 1px 1px 2px #ffff;
 }
