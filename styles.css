@@ -116,7 +116,7 @@ a:hover {
 /*-----------------------------------------------------------------------------------*/
 
 #header {
-  background-image: url('background2.jpeg');
+  background-image: url('background.jpg');
   background-position:bottom;
   background-repeat: no-repeat;
   background-size:cover;
@@ -164,7 +164,7 @@ a:hover {
 #myself {
   width: 100%;
   height: auto;
-  background-image: url('marble2.jpeg');
+  background-image: url('marble.jpg');
   padding-top: 190px;
 }
 
@@ -206,7 +206,7 @@ a:hover {
 #primary_and_secondary_school_education {
   width: 100%;
   height: auto;
-  background-image: url('marble22.jpeg');
+  background-image: url('marble2.jpg');
   padding-top: 190px;
 }
 
@@ -248,7 +248,7 @@ a:hover {
 #tertiary_education {
   width: 100%;
   height: auto;
-  background-image: url('marble2.jpeg');
+  background-image: url('marble.jpg');
   padding-top: 190px;
 }
 
@@ -290,7 +290,7 @@ a:hover {
 #work_experience {
   width: 100%;
   height: auto;
-  background-image: url('marble22.jpeg');
+  background-image: url('marble2.jpg');
   padding-top: 190px;
 }
 
@@ -332,7 +332,7 @@ a:hover {
 #overseas_education_experience {
   width: 100%;
   height: auto;
-  background-image: url('marble2.jpeg');
+  background-image: url('marble.jpg');
   padding-top: 190px;
 }
 
@@ -374,7 +374,7 @@ a:hover {
 #future_plans {
   width: 100%;
   height: auto;
-  background-image: url('marble22.jpeg');
+  background-image: url('marble2.jpg');
   padding-top: 190px;
 }
 
@@ -416,7 +416,7 @@ a:hover {
 #ending {
   width: 100%;
   height: auto;
-  background-image: url('marble2.jpeg');
+  background-image: url('marble.jpg');
   padding-top: 190px;
 }
 
